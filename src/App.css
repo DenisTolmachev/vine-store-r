@@ -1,0 +1,219 @@
+@font-face {
+  font-family: "Open Sans Regular";
+  src: url("./fonts/OpenSans-Regular.eot");
+  src: url("./fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("./fonts/OpenSans.woff") format("woff"), url("./fonts/OpenSans-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Open Sans Light";
+  src: url("./fonts/OpenSans-Light.eot");
+  src: url("./fonts/OpenSans-Light.eot?#iefix") format("embedded-opentype"), url("./fonts/OpenSans-Light.woff") format("woff"), url("./fonts/OpenSans-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Open Sans Semibold";
+  src: url("./fonts/OpenSans-Semibold.eot");
+  src: url("./fonts/OpenSans-Semibold.eot?#iefix") format("embedded-opentype"), url("./fonts/OpenSans-Semibold.woff") format("woff"), url("./fonts/OpenSans-Semibold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Open Sans Bold";
+  src: url("./fonts/OpenSans-Bold.eot");
+  src: url("./fonts/OpenSans-Bold.eot?#iefix") format("embedded-opentype"), url("./fonts/OpenSans-Bold.woff") format("woff"), url("./fonts/OpenSans-Bold.ttf") format("truetype"); }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, :after, :before, :hover {
+  box-sizing: border-box; }
+
+.clearfixt:before,
+.clearfix:after {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  zoom: 1; }
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+  display: inline-block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner,
+a, :hover, :focus {
+  text-decoration: none !important; }
+
+button, :hover, :focus {
+  border: none;
+  outline: none; }
+
+.container {
+  background-color: #fff; }
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important; }
+
+body {
+  background-image: url("/public/img/beguzor32.jpg") !important; }
+
+@media all and (max-width: 1200px) {
+  header {
+    height: 660px; }
+  .navbar-header ul li {
+    margin-right: 16px; }
+  .implementation-block {
+    height: 650px; }
+  .phone-st {
+    padding: 0 74px; }
+  .phone-mob {
+    padding: 0 74px; }
+  .e-mail {
+    padding: 0 246px; }
+    .e-mail .mail {
+      margin-left: 0; }
+  footer {
+    background-size: cover; } }
+
+@media all and (max-width: 991px) {
+  header {
+    height: 480px; }
+    header .header-circle {
+      width: 450px;
+      height: 450px;
+      margin-top: 10.5%;
+      margin-left: -64px; }
+      header .header-circle p {
+        font-size: 31px;
+        padding: 105px 63px 8px;
+        margin-left: 36px; }
+  #header-news {
+    max-height: 164px; }
+    #header-news p {
+      margin-top: 20px; }
+  .navbar-header ul {
+    margin-left: 0; }
+    .navbar-header ul li {
+      margin-right: 5px; }
+      .navbar-header ul li a {
+        font-size: 15px; }
+  #reg-buttons {
+    padding-right: 0px; }
+    #reg-buttons button {
+      padding: 5px 20px;
+      margin-left: 5px; }
+  .work-us-title {
+    margin-top: 16px; }
+    .work-us-title p {
+      font-size: 26px; }
+  .work-us-info {
+    padding-top: 16px;
+    margin-bottom: 20px; }
+  .implementation-block {
+    height: 460px; }
+    .implementation-block .implementation-circle {
+      margin-right: -90px;
+      width: 450px;
+      height: 450px; }
+      .implementation-block .implementation-circle p {
+        font-size: 16px;
+        padding: 97px 101px; }
+  .gallery-block-title {
+    margin-top: 16px; }
+    .gallery-block-title p {
+      font-size: 26px; }
+  .grapes {
+    margin-bottom: 35px;
+    margin-top: 20px; }
+    .grapes .img-wrap .img-title {
+      height: 46px;
+      bottom: 46px; }
+  .show-all-button .show-all {
+    margin-bottom: 30px;
+    padding: 5px 26px;
+    font-size: 18px; }
+  footer {
+    padding: 5px 20px 5px; }
+  .contacts img {
+    width: 40px; }
+  .contacts p, .contacts a {
+    font-size: 16px; }
+  .phone-st {
+    padding: 0 58px; }
+  .phone-mob {
+    padding: 0 58px; }
+  .e-mail {
+    padding: 0 190px; }
+  .navbar-footer ul {
+    margin-top: 14px;
+    margin-bottom: 10px; }
+    .navbar-footer ul li {
+      margin: 6px; }
+      .navbar-footer ul li a {
+        font-size: 16px; } }
+
+@media all and (max-width: 800px) {
+  .navbar-header {
+    display: none; }
+  #reg-buttons {
+    display: none; }
+  .register-box .cart {
+    float: right; }
+  #sliding-menu {
+    display: block; } }
