@@ -3,7 +3,7 @@
 
 #header-news {
   max-height: 214px;
-  background-image: url(/public/img/news-header-bg.png);
+  background-image: url(./img/news-header-bg.png);
   overflow: visible;
   background-position-y: 0; }
 
@@ -31,21 +31,23 @@
       text-decoration: none;
       color: #4f3715;
       font-size: 30px;
+      font-family: "Open Sans Bold", sans-serif;
       text-transform: uppercase; }
     .article .news__post .news_prev, .article .news__post .news_text {
       color: #4f3715;
       /* text color */
+      font-family: "Open Sans Regular", sans-serif;
       font-size: 14px; }
     .article .news__post .news_readmore {
       float: right; }
     .article .news__post .down {
       height: 34px;
       width: 34px;
-      background-image: url(/public/img/down.png); }
+      background-image: url(./img/down.png); }
     .article .news__post .up {
       height: 34px;
       width: 34px;
-      background-image: url(/public/img/up.png); }
+      background-image: url(./img/up.png); }
 
 .news__count {
   margin: 10px 0 0 0;

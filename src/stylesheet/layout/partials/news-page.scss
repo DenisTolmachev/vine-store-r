@@ -3,7 +3,7 @@
 }
 #header-news {
   max-height: 214px;
-  background-image: url(/public/img/news-header-bg.png);
+  background-image: url(./img/news-header-bg.png);
   overflow: visible;
   background-position-y: 0;
 
@@ -34,12 +34,12 @@
       text-decoration: none;
       color: #4f3715;
       font-size: 30px;
-      //font-family: $OSBolb;
+      font-family: "Open Sans Bold", sans-serif;
       text-transform: uppercase;
     }
     .news_prev, .news_text {
       color: #4f3715; /* text color */
-      //font-family: $OSRegular;
+      font-family: "Open Sans Regular", sans-serif;
       font-size: 14px;
     }
     .news_readmore {
@@ -48,12 +48,12 @@
     .down {
       height: 34px;
       width: 34px;
-      background-image: url(/public/img/down.png);
+      background-image: url(./img/down.png);
     }
     .up {
       height: 34px;
       width: 34px;
-      background-image: url(/public/img/up.png);
+      background-image: url(./img/up.png);
     }
   }
 }

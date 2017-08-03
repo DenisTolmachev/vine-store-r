@@ -1,5 +1,4 @@
 import React from 'react';
-import './news.scss'
 
 const added_news = [
     {

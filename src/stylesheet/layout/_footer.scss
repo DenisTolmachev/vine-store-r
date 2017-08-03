@@ -1,0 +1,13 @@
+footer {
+  background-size: 100%;
+  background: url(./img/footer_bg.png) no-repeat;
+  position: relative;
+  overflow: hidden;
+  padding: 29px 20px 5px;
+  .copyright {
+    text-align: center;
+    color: $white;
+    font-size: 14px;
+    font-family: "Open Sans Regular", sans-serif;
+  }
+}

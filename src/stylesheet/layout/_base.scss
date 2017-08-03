@@ -91,6 +91,9 @@ button, :hover, :focus {
 
 .container {
   background-color: $white;
+  width: 1200px;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
 }
 
 .row {
