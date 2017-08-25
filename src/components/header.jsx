@@ -47,8 +47,6 @@ const Header = () => (
             <p>авторские селекционные формы и сорта винограда</p>
         </div>
     </header>
-
-
 );
 
 export default Header;
